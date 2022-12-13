@@ -1,4 +1,4 @@
-# Instrucciones mejoras de la pagina
+# Instrucciones mejoras del README.md
 
 Primero debes de correr el contenedor con su volumen externo para que permanezan los cambios
 
@@ -14,5 +14,5 @@ jupyter trust ~/host_home/single-cell-tutorial/latest_notebook/Case-study_Mouse-
 pip install -U "ipython>=7.20"
 ```
 
-Los cambios al notebook ya estan integrados en commits propios. Para poder empezar a trabajr con el nobtebook
+Los cambios al notebook ya estan integrados en commits propios. Para poder empezar a trabajr con el notebook
 debes de correr `jl`.

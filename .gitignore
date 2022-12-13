@@ -1,3 +1,5 @@
 **/.ipynb_checkpoints/**
 **/data/**
 **/cache/**
+*.h5ad
+*.hd5
