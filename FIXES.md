@@ -16,3 +16,6 @@ pip install -U "ipython>=7.20"
 
 Los cambios al notebook ya estan integrados en commits propios. Para poder empezar a trabajr con el notebook
 debes de correr `jl`.
+
+Para poder acceder al jl del server corriendo en un docker container:
+`ssh -N -f -L <port you will acess from>:localhost:<remote port> sefirot.inmegen.gob.mx`
