@@ -1,0 +1,17 @@
+SERVER=sefirot.inmegen.gob.mx
+PORT=8000
+
+PID=$(lsof -ti :5432)
+while [ ! -z "$PID" ]; do
+    kill $PID
+    PID=$(lsof -ti :5432)
+done
+
+l_TELNET=`echo "quit" | telnet $SERVER $PORT | grep "Escape character is"`
+if [ "$?" -ne 0 ]; then
+    ssh -p 5265 -N -f -L 5432:localhost:8888 sefirot.inmegen.gob.mx
+else
+    ssh -N -f -L 5432:localhost:8888 sefirot.inmegen.gob.mx
+fi
+
+echo "Opened connection on port 5432 for jupyter lab"
