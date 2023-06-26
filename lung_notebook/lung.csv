@@ -1,0 +1,140 @@
+,genesymbol,canonical_marker,cell_type,germ_layer,human,human_sensitivity,human_specificity,mouse,mouse_sensitivity,mouse_specificity,ncbi_tax_id,organ,ubiquitiousness
+61,MUC1,True,Clara cells,Endoderm,True,0.666667,0.0322985,True,0.340426,0.0115201,9606,Lungs,0.016
+62,MUC1,True,Pulmonary alveolar type II cells,Endoderm,True,1.0,0.0289399,True,0.765152,0.00608296,9606,Lungs,0.016
+118,CEBPA,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0,True,0.265152,0.0279557,9606,Lungs,0.025
+443,AQP5,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0419799,True,1.0,0.011832,9606,Lungs,0.018
+500,AQP1,True,Airway epithelial cells,Endoderm,True,0.0,0.0178571,True,0.0,0.0424767,9606,Lungs,0.037
+511,ADH7,True,Airway epithelial cells,Endoderm,True,0.0,0.00438596,True,0.0,0.0062881,9606,Lungs,0.006
+513,CDH1,True,Airway epithelial cells,Endoderm,True,0.0,0.0416667,True,0.0,0.0572345,9606,Lungs,0.056
+527,SEC14L3,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0,True,0.0,0.0,9606,Lungs,0.006
+528,SEC14L3,True,Ciliated cells,Endoderm,True,0.0,0.0,True,0.0,0.0,9606,Lungs,0.006
+529,SEC14L3,True,Airway epithelial cells,Endoderm,True,0.0,0.0,True,0.0,0.0,9606,Lungs,0.006
+530,MUC5B,True,Airway goblet cells,Mesoderm,True,0.0,0.0093985,True,0.25,0.000385183,9606,Lungs,0.002
+531,MUC5B,True,Clara cells,Endoderm,True,0.0,0.00940734,True,0.12766,0.000128717,9606,Lungs,0.002
+534,MUC16,True,Airway goblet cells,Mesoderm,True,0.0,0.00219298,True,0.25,0.000834564,9606,Lungs,0.001
+541,SCGB3A1,True,Clara cells,Endoderm,True,0.666667,0.0109752,True,0.0,0.0,9606,Lungs,0.006
+542,SCGB3A1,True,Airway goblet cells,Mesoderm,True,0.0,0.0115915,True,0.0,0.0,9606,Lungs,0.006
+570,PIGR,True,Pulmonary alveolar type II cells,Endoderm,True,0.692308,0.0415225,True,0.00757576,0.0293147,9606,Lungs,0.031
+579,P08074,True,Pulmonary alveolar type II cells,Endoderm,False,0.0,0.0,True,0.969697,0.0253672,10090,Lungs,0.027
+593,GALNT5,True,Airway goblet cells,Mesoderm,True,0.0,0.00344612,True,0.0,0.000641972,9606,Lungs,0.001
+594,GALNT6,True,Airway goblet cells,Mesoderm,True,0.0,0.00093985,True,0.125,0.00815305,9606,Lungs,0.007
+598,MUC5AC,True,Airway goblet cells,Mesoderm,True,0.0,0.000313283,True,0.0,0.000577775,9606,Lungs,0.0
+600,MUC4,True,Airway goblet cells,Mesoderm,True,0.0,0.016604,True,0.0,0.00263209,9606,Lungs,0.005
+601,MUC4,True,Clara cells,Endoderm,True,0.0,0.0166196,True,0.0,0.00263869,9606,Lungs,0.005
+602,MUC20,True,Airway goblet cells,Mesoderm,True,0.0,0.0,True,0.0,0.000128394,9606,Lungs,0.0
+604,SPDEF,True,Airway goblet cells,Mesoderm,True,0.0,0.00971178,True,0.0,0.0,9606,Lungs,0.004
+605,DUSP4,True,Airway goblet cells,Mesoderm,True,0.0,0.0413534,True,0.0,0.00385183,9606,Lungs,0.011
+676,ALDH1A1,True,Clara cells,Endoderm,True,0.0,0.0881154,True,0.851064,0.0262582,9606,Lungs,0.039
+755,SMARCA1,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0413534,True,0.0,0.0,9606,Lungs,0.015
+761,IRX1,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0,True,0.431818,0.00724778,9606,Lungs,0.009
+785,IL1B,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0254797,True,0.0378788,0.0276322,9606,Lungs,0.027
+805,CXCL2,True,Pulmonary alveolar type II cells,Endoderm,True,0.846154,0.0534759,True,0.0606061,0.0379214,9606,Lungs,0.041
+820,ITGAX,True,Alveolar macrophages,Mesoderm,True,0.0,0.0162907,True,0.434783,0.0027109,9606,Lungs,0.007
+834,CD36,True,Pulmonary alveolar type II cells,Endoderm,True,0.230769,0.0336584,True,0.840909,0.037339,9606,Lungs,0.042
+848,NR2F6,True,Alveolar macrophages,Mesoderm,False,0.0,0.0,True,0.902174,0.00548635,9606,Lungs,0.009
+858,MRC1,True,Alveolar macrophages,Mesoderm,True,0.0,0.00971178,True,0.869565,0.0297554,9606,Lungs,0.029
+863,P17897,True,Pulmonary alveolar type II cells,Endoderm,False,0.0,0.0,True,0.795455,0.0314502,10090,Lungs,0.031
+866,MARCO,True,Alveolar macrophages,Mesoderm,True,0.0,0.00407268,True,0.23913,0.00174272,9606,Lungs,0.003
+872,NR1D1,True,Alveolar macrophages,Mesoderm,False,0.0,0.0,True,0.608696,0.000193636,9606,Lungs,0.003
+881,S100A4,True,Alveolar macrophages,Mesoderm,True,0.0,0.371241,True,0.0,0.0,9606,Lungs,0.098
+885,GNGT2,True,Alveolar macrophages,Mesoderm,True,0.0,0.000313283,True,0.630435,0.0623507,9606,Lungs,0.054
+889,Q920G3,True,Alveolar macrophages,Mesoderm,False,,,True,,,10090,Lungs,0.002
+942,NKX2-1,True,Pulmonary alveolar type II cells,Endoderm,True,0.615385,0.00283108,True,0.651515,0.00595354,9606,Lungs,0.01
+1371,SCD,True,Pulmonary alveolar type II cells,Endoderm,False,,,True,,,9606,Lungs,0.036
+1970,HOPX,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.091792,True,1.0,0.0201273,9606,Lungs,0.033
+1991,P2RX7,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00877193,True,0.0,0.00347245,9606,Lungs,0.004
+2466,CCN2,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0996241,True,0.617647,0.0111247,9606,Lungs,0.028
+2537,KRT7,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.10119,True,1.0,0.0453347,9606,Lungs,0.056
+2540,CFTR,True,Ionocytes,Mesoderm,True,0.0,0.00657895,True,1.0,0.00269542,9606,Lungs,0.003
+2667,RUNX3,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0207612,True,0.0,0.0,9606,Lungs,0.018
+2684,VEGFA,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0247494,True,0.0,0.0,9606,Lungs,0.021
+2753,AGER,True,Pulmonary alveolar type II cells,Endoderm,True,0.307692,0.0,True,0.969697,0.00537113,9606,Lungs,0.011
+2754,AGER,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00125313,True,1.0,0.0113819,9606,Lungs,0.011
+2823,SLC12A2,True,Ionocytes,Mesoderm,True,0.0,0.0501253,True,0.0,0.0,9606,Lungs,0.074
+2838,FOXJ1,True,Ciliated cells,Endoderm,True,0.0,0.00877193,True,0.666667,0.0112309,9606,Lungs,0.01
+2850,SCGB1A1,True,Clara cells,Endoderm,True,1.0,0.0100345,True,0.0,0.0,9606,Lungs,0.028
+2852,TUBB4B,True,Ciliated cells,Endoderm,True,0.0,0.338346,True,0.0,0.0,9606,Lungs,0.276
+2854,SYT2,True,Clara cells,Endoderm,True,0.0,0.0,True,0.0,0.0,9606,Lungs,0.002
+2857,CYP2E1,True,Clara cells,Endoderm,True,0.0,0.00439009,True,0.0,0.00341099,9606,Lungs,0.003
+2859,FOXM1,True,Clara cells,Endoderm,True,0.0,0.0,True,0.0,0.00167332,9606,Lungs,0.001
+2860,P33267,True,Clara cells,Endoderm,False,0.0,0.0,True,0.87234,0.00682198,10090,Lungs,0.008
+2864,CTSE,True,Clara cells,Endoderm,True,0.0,0.00878018,True,0.0,0.00901017,9606,Lungs,0.009
+2865,SCGB3A2,True,Clara cells,Endoderm,True,1.0,0.0084666,True,0.0,0.0,9606,Lungs,0.008
+2866,SFTPC,True,Clara cells,Endoderm,True,1.0,0.022264,True,0.0,0.0,9606,Lungs,0.029
+2867,SFTPC,True,Pulmonary alveolar type II cells,Endoderm,True,1.0,0.0191884,True,0.0,0.0,9606,Lungs,0.029
+2868,CYP4B1,True,Clara cells,Endoderm,True,0.666667,0.0122295,True,0.659574,0.0171837,9606,Lungs,0.018
+2869,CYP4B1,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0128446,True,0.588235,0.0178767,9606,Lungs,0.018
+2871,BPIFA1,True,Clara cells,Endoderm,True,0.0,0.00407651,True,0.319149,0.00572789,9606,Lungs,0.006
+2879,AHR,True,Clara cells,Endoderm,True,0.0,0.0112888,True,0.0638298,0.00675763,9606,Lungs,0.007
+2880,MMP28,True,Clara cells,Endoderm,True,0.0,0.00188147,True,0.0,6.43583e-05,9606,Lungs,0.0
+2881,LEPR,True,Clara cells,Endoderm,True,0.0,0.00783945,True,0.0,0.00431201,9606,Lungs,0.005
+2885,ERN1,True,Clara cells,Endoderm,True,0.0,0.00595798,True,0.0,0.00122281,9606,Lungs,0.002
+2887,SFTPA1,True,Clara cells,Endoderm,True,0.666667,0.0172468,True,0.0,0.0,9606,Lungs,0.015
+2888,SFTPA1,True,Pulmonary alveolar type II cells,Endoderm,True,1.0,0.0138408,True,0.0,0.0,9606,Lungs,0.015
+2889,CARM1,True,Clara cells,Endoderm,True,0.0,0.0,True,0.0,0.000450508,9606,Lungs,0.0
+2890,P12791,True,Clara cells,Endoderm,False,0.0,0.0,True,0.0212766,0.00456944,10090,Lungs,0.004
+2891,P12791,True,Pulmonary alveolar type I cells,Endoderm,False,0.0,0.0,True,0.617647,0.00327953,10090,Lungs,0.004
+2893,RAB3D,True,Clara cells,Endoderm,True,0.0,0.0,True,0.0,0.0,9606,Lungs,0.015
+2894,SFTPD,True,Pulmonary alveolar type II cells,Endoderm,True,0.923077,0.000629129,True,0.0,0.0,9606,Lungs,0.01
+2895,SFTPD,True,Clara cells,Endoderm,True,0.333333,0.00407651,True,0.0,0.0,9606,Lungs,0.01
+3015,LAMP3,True,Pulmonary alveolar type II cells,Endoderm,True,0.538462,0.0113243,True,0.80303,6.47124e-05,9606,Lungs,0.008
+3234,NAPSA,True,Pulmonary alveolar type II cells,Endoderm,True,1.0,0.0044039,True,0.871212,0.0558468,9606,Lungs,0.054
+3253,PDPN,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0234962,True,0.970588,0.0695132,9606,Lungs,0.062
+3312,CLCNKB,True,Ionocytes,Mesoderm,True,0.0,0.0,True,0.0,0.00288795,9606,Lungs,0.002
+3343,SCNN1A,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0106516,True,0.0,0.0,9606,Lungs,0.008
+3580,ICAM1,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00595238,True,0.294118,0.00938846,9606,Lungs,0.009
+3622,ADGRF5,True,Pulmonary alveolar type II cells,Endoderm,True,0.538462,0.0157282,True,0.590909,0.0500227,9606,Lungs,0.047
+3846,INMT,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.00975149,True,0.0681818,0.0162428,9606,Lungs,0.016
+3945,COL4A4,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00250627,True,0.882353,0.00617324,9606,Lungs,0.007
+3951,COL4A3,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.000626566,True,0.970588,0.00482284,9606,Lungs,0.006
+3964,P79568,True,Pulmonary alveolar type II cells,Endoderm,False,0.0,0.0,True,0.0681818,0.0275028,10090,Lungs,0.023
+4307,S100G,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0,True,0.0,0.0,9606,Lungs,0.024
+4522,SCNN1B,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00313283,True,0.0,0.0,9606,Lungs,0.003
+4526,SCNN1G,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0,True,0.0,0.0,9606,Lungs,0.002
+4622,AQP3,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0711153,True,0.0,0.0159475,9606,Lungs,0.025
+4642,GRAMD2A,True,Pulmonary alveolar type I cells,Endoderm,False,0.0,0.0,True,0.676471,0.000643045,9606,Lungs,0.002
+4786,O55186,True,Pulmonary alveolar type II cells,Endoderm,False,0.0,0.0,True,0.0,0.0417395,10090,Lungs,0.033
+4824,Q9WU67,True,Pulmonary alveolar type II cells,Endoderm,False,0.0,0.0,True,0.227273,0.00213551,10090,Lungs,0.004
+4867,IGFBP6,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0839599,True,0.676471,0.0280368,9606,Lungs,0.039
+5044,PGC,True,Pulmonary alveolar type II cells,Endoderm,True,0.769231,0.00251651,True,0.0,0.00478871,9606,Lungs,0.005
+5049,CLDN18,True,Pulmonary alveolar type II cells,Endoderm,True,0.769231,0.000943693,True,0.893939,0.00433573,9606,Lungs,0.01
+5050,CLDN18,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00407268,True,1.0,0.00970999,9606,Lungs,0.01
+5096,SEMA3E,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0,True,0.0,0.0,9606,Lungs,0.005
+5724,ABCD3,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.00943693,True,0.340909,0.0467223,9606,Lungs,0.041
+5785,FOXI1,True,Ionocytes,Mesoderm,True,0.0,0.0,True,1.0,0.001091,9606,Lungs,0.001
+5893,NRN1,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0100661,True,0.0151515,0.0231023,9606,Lungs,0.021
+6006,KCNMA1,True,Ionocytes,Mesoderm,True,0.0,0.0184837,True,1.0,0.048325,9606,Lungs,0.043
+6048,ASCL3,True,Ionocytes,Mesoderm,True,0.0,0.0,True,1.0,6.41766e-05,9606,Lungs,0.0
+6049,FOXN4,True,Ionocytes,Mesoderm,True,0.0,0.0,True,0.0,0.000320883,9606,Lungs,0.0
+6050,TFCP2L1,True,Ionocytes,Mesoderm,True,0.0,0.00313283,True,0.0,0.0,9606,Lungs,0.008
+6290,Q5SSJ1,True,Pulmonary alveolar type II cells,Endoderm,False,,,True,,,10090,Lungs,0.037
+6440,CXCR2,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0,True,0.0,0.00355918,9606,Lungs,0.003
+7174,PPP1R14C,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.00597672,True,0.598485,0.0267909,9606,Lungs,0.026
+7239,LRG1,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.00346021,True,0.477273,0.0277616,9606,Lungs,0.026
+7475,ETV5,True,Pulmonary alveolar type II cells,Endoderm,True,0.0769231,0.0128971,True,0.44697,0.0154663,9606,Lungs,0.019
+7555,EGFL6,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00814536,True,0.0,0.0106102,9606,Lungs,0.01
+7556,EGFL6,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.00817867,True,0.666667,0.00498285,9606,Lungs,0.01
+7626,MMP11,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00438596,True,0.323529,0.00803807,9606,Lungs,0.01
+7673,SEMA3B,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0178571,True,0.0,0.0,9606,Lungs,0.009
+7841,PPBP,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.00346021,True,0.0,0.000841261,9606,Lungs,0.001
+7883,ABCA3,True,Pulmonary alveolar type II cells,Endoderm,True,0.692308,0.000943693,True,0.00757576,0.000517699,9606,Lungs,0.001
+7920,CLIC5,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0134712,True,0.970588,0.0149187,9606,Lungs,0.016
+7945,GPRC5A,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0833333,True,0.970588,0.00765224,9606,Lungs,0.024
+8023,RTKN2,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0275689,True,0.0,0.0,9606,Lungs,0.007
+8024,AKAP5,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0,True,0.970588,0.00553019,9606,Lungs,0.006
+8025,EMP2,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0902256,True,1.0,0.0549161,9606,Lungs,0.065
+8026,PXDC1,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0018797,True,0.823529,0.0326667,9606,Lungs,0.028
+8028,CRLF1,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.00532581,True,0.617647,0.0160118,9606,Lungs,0.015
+8029,CRLF1,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.00534759,True,0.159091,0.0161134,9606,Lungs,0.015
+8030,FSTL3,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0147243,True,0.0,0.000450132,9606,Lungs,0.004
+8031,MEX3B,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.0112782,True,0.0,0.0028937,9606,Lungs,0.004
+8032,RADIL,True,Pulmonary alveolar type I cells,Endoderm,True,0.0,0.000313283,True,0.0,0.0,9606,Lungs,0.0
+8033,SFTA2,True,Pulmonary alveolar type II cells,Endoderm,True,0.923077,0.00220195,True,0.0,0.0,9606,Lungs,0.01
+8034,SLC34A2,True,Pulmonary alveolar type II cells,Endoderm,True,1.0,0.00346021,True,0.0,0.0,9606,Lungs,0.01
+8035,Q9WVL7,True,Pulmonary alveolar type II cells,Endoderm,False,0.0,0.0,True,0.931818,0.004724,10090,Lungs,0.01
+8036,SFTPB,True,Pulmonary alveolar type II cells,Endoderm,True,1.0,0.0188739,True,0.0,0.0,9606,Lungs,0.015
+8037,SOAT1,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0113243,True,0.0,0.0,9606,Lungs,0.042
+8038,LPCAT1,True,Pulmonary alveolar type II cells,Endoderm,True,0.692308,0.00786411,True,0.856061,0.0217434,9606,Lungs,0.025
+8039,GRK2,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.00786411,False,0.0,0.0,9606,Lungs,0.001
+8040,CTNND1,True,Pulmonary alveolar type II cells,Endoderm,True,0.0,0.0443536,True,0.0454545,0.0390215,9606,Lungs,0.04
+8041,DDX3Y,True,Pulmonary alveolar type II cells,Endoderm,True,0.0769231,0.0500157,True,0.0227273,0.0253025,9606,Lungs,0.029
