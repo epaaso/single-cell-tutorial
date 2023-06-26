@@ -10,9 +10,18 @@ Solo una vez debes de confiar en el notebook,
 para poder correr todos los comandos y asgurate de que la version de ipython sea 7.20:
 
 ```bash
-jupyter trust ~/host_home/single-cell-tutorial/latest_notebook/Case-study_Mouse-intestinal-epithelium_2101.ipynb
+jupyter trust ~/host_home/single-cell-tutorial/latest_notebook/Case-study_Mouse-eintestinal-epithelium_2101.ipynb
 pip install -U "ipython>=7.20"
 ```
 
 Los cambios al notebook ya estan integrados en commits propios. Para poder empezar a trabajr con el notebook
 debes de correr `jl`.
+
+Para poder acceder al jl del server corriendo en un docker container:
+`ssh -p <host port> -N -f -L <port you will acess from>:localhost:<remote port> sefirot.inmegen.gob.mx`
+
+Estos son los mapeos de los ips del server, solo que el ssh es 5265
+<img src="ips.png">
+
+Pero si tienes el tunel abierto lo puedes cerrar buscando el proceso con `ps aux | grep ssh`
+y matandolo con `kill <PID>`
