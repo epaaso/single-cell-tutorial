@@ -3,3 +3,4 @@
 **/cache/**
 *.h5ad
 *.hd5
+**/__pycache__/**

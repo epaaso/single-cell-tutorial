@@ -12,6 +12,9 @@ import numpy
 import GEOparse
 
 def remove_repeated_var_inds(adata_tmp):
+    '''
+    Remove the cols with repeated indices of an AnnData object
+    '''
     i_dels = [True]* adata_tmp.n_vars
     adata_tmp.var['i'] = list(range(0, adata_tmp.n_vars))
     reps  = adata_tmp.var.index.value_counts()
@@ -29,7 +32,7 @@ def remove_repeated_var_inds(adata_tmp):
 def join_map_mart(adata_tmp, annot, gene_annot='external_gene_name', how='left'):
     '''
     Takes the index of the first arg AnnData and reduces the df
-    in the right to those indexes
+    in the right to those var indices
     '''
     maps_gene_names = pd.merge(
         pd.DataFrame({gene_annot:adata_tmp.var.index}),
@@ -41,7 +44,7 @@ def join_map_mart(adata_tmp, annot, gene_annot='external_gene_name', how='left')
     return maps_gene_names
 
 
-def search_str_index(s_list:list, search_str:str) -> list:
+def search_str_index2(s_list:list, search_str:str) -> list:
     """
     Get the indexes for in a list that contain a str
     
@@ -66,8 +69,33 @@ def search_str_index(s_list:list, search_str:str) -> list:
         i += 1
         
     return matched_indexes
-    
 
+
+def search_str_index(s_list:list, regex_pattern:str) -> list:
+    """
+    Get the indexes in a list that match a `regex_pattern`
+    
+    Parameters:
+        s_list (list): the list to search in
+        search_str (str): the str to search for, it only must be contained
+
+    Returns:
+        matched_indexes (list): A list of the indexes where it was found
+    """
+    
+    matched_indexes = []
+    i = 0
+    length = len(s_list)
+
+    while i < length:
+        if type(s_list[i]) is not str:
+            i += 1
+            continue
+        if re.search(regex_pattern, s_list[i]):
+            matched_indexes.append(i)
+        i += 1
+        
+    return matched_indexes
 
 def get_geo_exprs(gse_str='', data_dir='/root/datos/maestria/netopaas/lung_scRNA'):
     """
@@ -104,12 +132,15 @@ def get_geo_exprs(gse_str='', data_dir='/root/datos/maestria/netopaas/lung_scRNA
                 
                 # TODO it is in this array but no standard index, search for it later
                 l1 = gsm.metadata['data_processing']
-                s = 'upplementary'
+                s = r'upplementary'
                 matched_indexes = search_str_index(l1, s)
-                sup_file_type = l1[matched_indexes[0]].split(':')[1]
+                if matched_indexes:
+                    sup_file_type = l1[matched_indexes[0]].split(':')[1]
+                else:
+                    warnings.warn('')
+                    sup_file_type = 'Missing'
                 
-                l1 = gsm.metadata['data_processing']
-                s = 'Genome_build'
+                s = r'[Gg]enome[_ ][Bb]uild'
                 matched_indexes = search_str_index(l1, s)
                 genome_build = l1[matched_indexes[0]].split(':')[1]
                 
@@ -173,7 +204,7 @@ def get_geo_exprs(gse_str='', data_dir='/root/datos/maestria/netopaas/lung_scRNA
 
     return metadata
 
-def download_url(args, gse='', data_dir='/root/datos/maestria/netopaas/lung_scRNA'):
+def download_url(args, data_dir='/root/datos/maestria/netopaas/lung_scRNA'):
     t0 = time.time()
     #Extract url and file path from args
     url = args[0]
@@ -187,12 +218,14 @@ def download_url(args, gse='', data_dir='/root/datos/maestria/netopaas/lung_scRN
         print('Exception in download_url():', e)
 
 
-def download_parallel(args, gse=''):
+def download_parallel(args):
+    """
+    Downloads the zipped array of urls in 1st pos with paths in 2nd pos
+    
+    """
     cpus = int(cpu_count()/3)
     print("CPUS: ", cpus)
     
-    # Fix the download func for a specific GSE so that we dnot have o make a list of the same GSE
-    download_url_gse = lambda args : download_url(args, gse=gse)
     with ThreadPool(cpus -1 ) as pool:
-        for result in pool.imap_unordered(download_url_gse, args):
+        for result in pool.imap_unordered(download_url, args):
             print('url:', result[0], 'time (s):', result[1])
