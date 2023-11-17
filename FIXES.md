@@ -3,13 +3,15 @@
 Primero debes de correr el contenedor con su volumen externo para que permanezan los cambios
 
 ```bash
-sudo docker run --interactive --tty --name sc_anal --publish 8888-8892:8888-8892 --volume $HOME/2021-SC-HCA-LATAM/CONTAINER:/root/host_home --workdir /root/host_home/ leanderd/single-cell-analysis:211119 /bin/bash
+sudo docker run --interactive --tty --name sc_lung --publish 8888-8892:8888-8892 --volume $HOME/2021-SC-HCA-LATAM/CONTAINER:/root/host_home --workdir /root/host_home/ leanderd/single-cell-analysis:211119 /bin/bash
 ```
 
 O con con una imagen con tensorflow, nvida y pytorch y accesso a los datos del servidor sefirot
 
+Yo must install the apt package `docker-nvidia` for the gpu flags to work.
+
 ```bash
-docker run --interactive --tty --name sc_anal --publish 8888-8892:8888-8892 --volume $HOME/2021-SC-HCA-LATAM/CONTAINER:/root/host_home --volume /datos:/root/datos --workdir /root/host_home/ netopaas/sc_anal /bin/bash
+docker run --interactive --runtime=nvidia --gpus all --tty --name sc_lung --publish 8888-8892:8888-8892 --volume $HOME/2021-SC-HCA-LATAM/CONTAINER:/root/host_home --volume /datos:/root/datos --workdir /root/host_home/ netopaas/sc_anal /bin/bash
 ```
 
 Solo una vez debes de confiar en el notebook,
