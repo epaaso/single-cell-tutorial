@@ -15,18 +15,11 @@ def remove_repeated_var_inds(adata_tmp):
     '''
     Remove the cols with repeated indices of an AnnData object
     '''
-    i_dels = [True]* adata_tmp.n_vars
-    adata_tmp.var['i'] = list(range(0, adata_tmp.n_vars))
-    reps  = adata_tmp.var.index.value_counts()
-    rep_names = list(reps[reps > 1].index)
-
-    for rep in rep_names:
-        i_del_ = adata_tmp.var.loc[ rep, 'i']
-        for i_del in i_del_:
-            i_dels[i_del] = False
+    adata_tmp.var['i'] = adata_tmp.var.index
+    adata_tmp.var.drop_duplicates(subset=['i'], inplace=True)
+    del adata_tmp.var['i']
     
-    adata_tmp.var.drop(columns=['i'], inplace=True)
-    return adata_tmp[:, i_dels]
+    return adata_tmp
 
 
 def join_map_mart(adata_tmp, annot, gene_annot='external_gene_name', how='left'):
